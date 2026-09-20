@@ -1,0 +1,25 @@
+{
+  "application": "AdStats",
+  "public_reference_version": "1.0.0",
+  "production_package_version": "1.8.6",
+  "purpose": "Stateless public reference for the read-only Hypixel player lookup used by AdStats.",
+  "persistent_storage": false,
+  "response_cache": false,
+  "telemetry": false,
+  "writes_files": false,
+  "writes_database": false,
+  "hypixel": {
+    "method": "GET",
+    "endpoint": "https://api.hypixel.net/v2/player?uuid=<UUID>",
+    "requests_per_invocation": 1,
+    "write_endpoints": false,
+    "authentication": "API-Key request header from HYPIXEL_API_KEY environment variable",
+    "request_cache_control": "no-cache, no-store"
+  },
+  "public_files": [
+    "adstats_public_bot.py",
+    "bot-version.json",
+    "index.html",
+    "README.md"
+  ]
+}
