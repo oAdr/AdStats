@@ -39,8 +39,22 @@ The production bot has a pending lookup queue capacity of three and serializes r
 
 The production package associated with this application is AdStats 1.8.6. The files in this repository are the separately audited public reference version described by `bot-version.json`; they are deliberately free of deployment credentials and persistent storage.
 
+## Manage Page of QQBot [Translated]
+
 ![AdStats screenshot](manage.png)
+
+## Manage Page of QQBot [Original]
+
 ![AdStats screenshot](manage_org.png)
+
+## Example of Using the Bot
+
 ![AdStats screenshot](example.png)
+
+## Output example 
+
 ![AdStats screenshot](output.png)
+
+## Server that holds the QQBot
+
 ![AdStats screenshot](server.png)
