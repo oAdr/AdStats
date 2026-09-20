@@ -38,3 +38,9 @@ The production bot has a pending lookup queue capacity of three and serializes r
 ## Version
 
 The production package associated with this application is AdStats 1.8.6. The files in this repository are the separately audited public reference version described by `bot-version.json`; they are deliberately free of deployment credentials and persistent storage.
+
+![AdStats screenshot](manage.png)
+![AdStats screenshot](manage_org.png)
+![AdStats screenshot](example.png)
+![AdStats screenshot](output.png)
+![AdStats screenshot](server.png)
