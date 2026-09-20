@@ -51,10 +51,10 @@ The production package associated with this application is AdStats 1.8.6. The fi
 
 ![AdStats screenshot](example.png)
 
-## Output example 
+## Output Example 
 
 ![AdStats screenshot](output.png)
 
-## Server that holds the QQBot
+## Server that Runs the QQBot
 
 ![AdStats screenshot](server.png)
